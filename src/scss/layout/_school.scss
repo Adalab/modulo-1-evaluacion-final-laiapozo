@@ -1,5 +1,57 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .school {
-    
+  background-color: vars.$second-color;
+  padding: 18px 50px;
+  text-align: center;
+
+  &__subtitle {
+    color: vars.$third-color;
+    font-family: vars.$font-slab;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  &__title {
+    color: vars.$fifth-color;
+    font-family: vars.$font-slab;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+  }
+
+  &__button {
+    color: vars.$fourth-color;
+    background-color: vars.$main-color;
+    font-family: vars.$font-regular;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+.container {
+  display: grid;
+
+  &__item {
+    &__text {
+      color: vars.$fifth-color;
+      font-family: vars.$font-slab;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    &__img {
+      width: 130px;
+
+      img {
+        width: 100%;
+        border-radius: 65px;
+        box-shadow: 2px 2px 5px vars.$third-color;
+      }
+    }
+  }
 }
