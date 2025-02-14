@@ -79,3 +79,10 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 70vw;
+    margin: 0 auto;
+  }
+}
