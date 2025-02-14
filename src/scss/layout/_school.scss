@@ -2,7 +2,7 @@
 
 .school {
   background-color: vars.$second-color;
-  padding: 18px 50px;
+  padding: 18px 50px 50px;
   text-align: center;
 
   &__subtitle {
@@ -29,12 +29,16 @@
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 25px;
-    margin-bottom: 40px;
   }
 }
 
 .container {
+  padding-bottom: 20px;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  gap: 25px;
 
   &__item {
     &__text {
