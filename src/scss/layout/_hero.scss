@@ -36,16 +36,24 @@
 }
 
 @media (min-width: 768px) {
-    .hero {
-      padding: 0 250px 30px;
-      gap: 15px;
+  .hero {
+    padding: 0 250px 30px;
+    gap: 15px;
 
-      &__title {
-        font-size: 75px;
-      }
-
-      &__text {
-        font-size: 24px;
-      }
+    &__title {
+      font-size: 75px;
     }
+
+    &__text {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    &__arrow {
+      margin-top: 24px;
+    }
+  }
 }
