@@ -16,8 +16,8 @@
     border-radius: 21px;
     position: absolute;
     top: -20px;
-    left: 50%;
-    transform: translate(-50%);
+    left: 48.5%;
+    /* Tenía puesto "left: 50%" y "transform: translate(-50%), pero cuando he añadido la animation, ha dejador de funcionar */
     animation: arrowMove 1s infinite;
     animation-direction: alternate-reverse;
   }
