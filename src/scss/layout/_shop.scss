@@ -1,1 +1,23 @@
 @use '../core/variables' as vars;
+
+.shop {
+    background-color: vars.$fourth-color;
+    padding: 25px 10px;
+
+    &__subtitle {
+        color: vars.$main-color;
+        font-family: vars.$font-regular;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    &__title {
+        color: vars.$fifth-color;
+        font-family: vars.$font-slab;
+        font-size: 22px;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+    }
+}
