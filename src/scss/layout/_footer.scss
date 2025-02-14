@@ -37,3 +37,22 @@
     color: vars.$main-color;
   }
 }
+
+@media (min-width: 768px) {
+  .footer {
+    &__text {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      text-align: start;
+
+      &__items {
+        order: 2;
+      }
+
+      &__social {
+        order: 3;
+      }
+    }
+  }
+}
