@@ -11,9 +11,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 30px;
-  padding-bottom: 120px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 50px 120px;
   color: vars.$fourth-color;
   text-align: center;
 
@@ -35,4 +33,19 @@
     border-radius: 25px;
     padding-top: 18px;
   }
+}
+
+@media (min-width: 768px) {
+    .hero {
+      padding: 0 250px 30px;
+      gap: 15px;
+
+      &__title {
+        font-size: 75px;
+      }
+
+      &__text {
+        font-size: 24px;
+      }
+    }
 }
