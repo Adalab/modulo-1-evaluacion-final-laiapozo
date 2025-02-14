@@ -3,16 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900"
+      rel="stylesheet"
+    />
     
     <title>Tienda de deporte</title>
-    <link rel="stylesheet" href="./assets/index-46405357.css">
+    <link rel="stylesheet" href="./assets/index-81440c89.css">
   </head>
 
   <body>
     <header class="header">
   <a href="https://adalab.es/" target="_blank">
     <img
-      class="header__menu"
       src="./assets/ico-menu-4dccbf9b.svg"
       alt="Icono hamburguesa"
     />
@@ -47,34 +52,38 @@
 
       <section class="school">
   <a name="schoolSection"></a>
-  <div>
-    <p>¡Prepáralos con tus marcas favoritas!</p>
-    <h3>Vuelta al cole</h3>
+  <p class="school__subtitle">¡Prepáralos con tus marcas favoritas!</p>
+  <h3 class="school__title">Vuelta al cole</h3>
+  <div class="container">
+    <div class="container__item">
+      <div class="container__item__img">
+        <img
+          src="./assets/lpbts-mod05-img01-desk-3a5bc8a6.png"
+          alt="Niña con mochila escolar Puma"
+        />
+      </div>
+      <p class="container__item__text">Mochilas escolares</p>
+    </div>
+    <div class="container__item">
+      <div class="container__item__img">
+        <img
+          src="./assets/lpbts-mod05-img04-mob-8fb797bb.png"
+          alt="Niño con material escolar"
+        />
+      </div>
+      <p class="container__item__text">Estuches</p>
+    </div>
+    <div class="container__item">
+      <div class="container__item__img">
+        <img
+          src="./assets/lpbts-mod05-img03-mob-c07cd98e.png"
+          alt="Niña con bolsa de deporte Nike"
+        />
+      </div>
+      <p class="container__item__text">Bolsas de deporte</p>
+    </div>
   </div>
-  <div>
-    <img
-      src="./assets/lpbts-mod05-img01-desk-3a5bc8a6.png"
-      alt="Niña con mochila escolar Puma"
-    />
-    <p>Mochilas escolares</p>
-  </div>
-  <div>
-    <img
-      src="./assets/lpbts-mod05-img04-mob-8fb797bb.png"
-      alt="Niño con material escolar"
-    />
-    <p>Estuches</p>
-  </div>
-  <div>
-    <img
-      src="./assets/lpbts-mod05-img03-mob-c07cd98e.png"
-      alt="Niña con bolsa de deporte Nike"
-    />
-    <p>Bolsas de deporte</p>
-  </div>
-  <div>
-    <a href="">Empezar ahora</a>
-  </div>
+  <a class="school__button" href="">Empezar ahora</a>
 </section>
 
     </main>
@@ -98,9 +107,9 @@
         <li><a href="https://adalab.es/" target="_blank">Instagram</a></li>
         <li><a href="https://adalab.es/" target="_blank">Youtube</a></li>
     </ul>
-    <ul>
+    <ul class="copy">
         <li>&copy;2025</li>
-        <li>we<span>❤︎</span>run</li>
+        <li>we<span class="copy__love"> ❤︎ </span>run</li>
     </ul>
 </footer>
 
