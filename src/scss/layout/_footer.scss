@@ -1,1 +1,17 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
+
+.footer {
+  background-color: vars.$third-color;
+  padding: 40px;
+  position: relative;
+
+  &__arrow {
+    background-color: vars.$fourth-color;
+    padding: 9px 9px 3px;
+    border-radius: 21px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
