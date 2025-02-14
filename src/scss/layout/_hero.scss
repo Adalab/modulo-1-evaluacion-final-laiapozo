@@ -1,2 +1,30 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
+.hero {
+  height: 100vh;
+  background-image: url("../images/cover.jpeg");
+  background-size: cover;
+  background-position: 85%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: vars.$fourth-color;
+  text-align: center;
+
+  &__title {
+    font-family: vars.$font-slab;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: vars.$font-regular;
+    font-size: 24px;
+  }
+}
