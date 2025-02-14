@@ -58,3 +58,10 @@
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .shop {
+    max-width: 75vw;
+    margin: 0 auto;
+  }
+}
