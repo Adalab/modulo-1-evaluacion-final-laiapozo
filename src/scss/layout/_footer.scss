@@ -1,5 +1,10 @@
 @use "../core/variables" as vars;
 
+@keyframes arrowMove {
+  from {transform: scale(0.5);}
+  to {transform: scale(2);}
+}
+
 .footer {
   background-color: vars.$third-color;
   padding: 40px;
@@ -13,6 +18,7 @@
     top: -20px;
     left: 50%;
     transform: translate(-50%);
+    animation: arrowMove 3s infinite;
   }
 
   &__text {
