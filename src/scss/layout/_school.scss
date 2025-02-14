@@ -29,6 +29,12 @@
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 25px;
+    border: 0;
+    transition: 1s;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
   }
 }
 

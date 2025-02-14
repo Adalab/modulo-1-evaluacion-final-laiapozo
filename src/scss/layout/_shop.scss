@@ -32,12 +32,18 @@
 
   &__buy {
     color: vars.$main-color;
+    background-color: vars.$fourth-color;
     font-family: vars.$font-regular;
     font-size: 20px;
     font-weight: 450;
     border: 3px solid vars.$main-color;
     padding: 6px 30px;
     border-radius: 25px;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 
